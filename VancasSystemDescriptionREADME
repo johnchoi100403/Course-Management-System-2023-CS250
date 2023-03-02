@@ -11,7 +11,7 @@ will calculate a student's grade given the data submitted in the assignments and
   - Roster: class for tracking roster of students
   - Student: class for the overall object of individual Student
     - Grade: class tracking the grade of the student in given course
-    - Assignments: class tracking the completion of all assignments and homework
-      - Individual assignment: an object class to track the details of a specific assignment
-    - Tests: class tracking the performance of students on exams 
+      - Assignments: class tracking the completion of all assignments and homework
+      - Curve: class calculating and applying curves
+    
     
