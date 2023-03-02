@@ -7,6 +7,10 @@ Course : A class representing a course, with its ID and description. Also includ
   schedule : str 
   prerequisites : str 
   instructor : str 
+  ___
+  enroll(student): void //enrolls a new student 
+  drop(student): void //removes a student from course
+  getEnrollment(): returns enrollment list
 
 
 Student : A class to represent a student, with the attributes containing the student ID, name, and email. 
@@ -14,6 +18,9 @@ Student : A class to represent a student, with the attributes containing the stu
   studentID : int 
   name : str 
   email : str 
+  _____
+  getStudentID(): int //returns student ID
+  
 
 
 Instructor : A class to represent an instructor, with the attributes containing the instructor ID, name, and email. 
