@@ -7,7 +7,7 @@ Course : A class representing a course, with its ID and description. Also includ
   schedule : str 
   prerequisites : str 
   instructor : str 
- 
+
 Student : A class to represent a student, with the attributes containing the student ID, name, and email. 
   Data Types - 
   studentID : int 
