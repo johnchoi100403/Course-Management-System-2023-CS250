@@ -1,1 +1,62 @@
+Course : A class representing a course, with its ID and description. Also includes attributes such as the prerequisites for the course, schedule, and instructor. 
+        Functions will include the ability to enroll students and drop students from the selected course. 
+  Data Types - 
+  courseID : int 
+  name : str 
+  description: str 
+  schedule : str 
+  prerequisites : str 
+  instructor : str 
+
+
+Student : A class to represent a student, with the attributes containing the student ID, name, and email. 
+  Data Types - 
+  studentID : int 
+  name : str 
+  email : str 
+
+
+Instructor : A class to represent an instructor, with the attributes containing the instructor ID, name, and email. 
+  Data Types - 
+  instructorID : int 
+  teachingName : str 
+  email : str
+
+
+Roster : A class that represents the roster of the particular course. It contains attributes such as enrollment ID, course ID, student ID, and enrollment status. It
+        also provides methods for checking if a student is enrolled. Each individual course has its own roster. 
+  Data Types - 
+  enrollmentID : int
+  courseID : int 
+  studentID : int 
+  status : str 
+
+
+Assignment : A class that represents an assignment for a course. It contains attributes such as assignment ID, title, description, due date, and maximum score. 
+            It provides methods for adding and removing grades, along with checking current grades. 
+  Data Types - 
+  assignmentID : int 
+  assignmentType : str 
+  courseID : int 
+  assignmentTitle: str
+  assignmentDescription : str 
+  dueDate : str 
+  totalPointsWorth : int 
+  weight : int
+
+
+Grade : A class to represent a students grade for an assignment in a course. It contains attributes such as student ID, course ID, assignment name and a score. It     
+       contains methods that can view the final grade after assessments have been added to the total grade. 
+  Data Types - 
+  studentID : int 
+  courseID : int 
+  assignments : str 
+  curve : int 
+
+
+Curve : A class to represent a curve that can be applied to the grades of an assignment. It contains the curve type and curve amount. The method provided applies the 
+        curve to the grades selected. 
+  Data Types - 
+  curveType : int
+  curveAmt : str 
 
