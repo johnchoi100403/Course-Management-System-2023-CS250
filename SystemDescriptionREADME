@@ -1,0 +1,17 @@
+This is the repository for the Course Management System our group is designing for CS250
+
+Course Management System:
+
+Our course management system will contain overarching course classes, and will be able to
+keep track of instructors, rosters, and students. The student class will be an individual class that
+will calculate a student's grade given the data submitted in the assignments and tests classes. 
+
+- Course class: a class that handles description of given course
+  - Instructor: class for the instructors
+  - Roster: class for tracking roster of students
+  - Student: class for the overall object of individual Student
+    - Grade: class tracking the grade of the student in given course
+    - Assignments: class tracking the completion of all assignments and homework
+      - Individual assignment: an object class to track the details of a specific assignment
+    - Tests: class tracking the performance of students on exams 
+    
