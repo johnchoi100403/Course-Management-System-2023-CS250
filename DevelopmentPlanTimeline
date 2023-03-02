@@ -1,0 +1,22 @@
+Development Plan & Timeline
+
+Code:
+Course class: Andrew
+Roster class: William
+Student class: Gabe
+Teacher class: John
+Assignment class: William & Andrew
+Curve class: Gabe
+Grade class: John & Gabe
+
+Prototype goal: March 14th
+
+Testing:
+Assignment Testing: John & William
+Roster Testing: William
+Curve Testing: Gabe
+Grade Testing: John
+Student Testing: Andrew
+Course Testing: Gabe & Andrew
+
+Testing finish goal: a week before project due date
