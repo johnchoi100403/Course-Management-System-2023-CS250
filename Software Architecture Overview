@@ -15,7 +15,6 @@ Student : A class to represent a student, with the attributes containing the stu
   email : str 
   
 
-
 Instructor : A class to represent an instructor, with the attributes containing the instructor ID, name, and email. 
   Data Types - 
   instructorID : int 
